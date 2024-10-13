@@ -31,3 +31,11 @@ Sort Contacts: (Optional) Sorts the contacts alphabetically by name.
 Analyze Search Efficiency: (Optional) Analyzes the efficiency of the search algorithm by counting the number of comparisons made.
 
 Team Members
+Hendritte Musambani 224080911, Meme Wetu 224087932, Mwalunga Stefanus 223090421 ,Unombwiro Tjikune
+223006300
+
+Silvio G Vries
+ 224032321
+
+Sylvanus Shilyomunhu
+224091514
