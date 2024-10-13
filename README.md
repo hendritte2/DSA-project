@@ -1,8 +1,8 @@
-# Phonebook Application
+ Phonebook Application
 
 This project implements a simple phonebook using basic linear data structures (arrays) in *JavaScript*. It allows for basic contact management functionalities such as inserting, searching, updating, and deleting contacts.
 
-## Features
+ Features
 - Add a new contact (name, phone number).
 - Search for a contact by name or phone number.
 - Display all contacts.
@@ -11,12 +11,12 @@ This project implements a simple phonebook using basic linear data structures (a
 - Sort contacts by name (optional).
 - Analyze search efficiency.
 
-## Data Structure
+ Data Structure
 The phonebook uses a *JavaScript array* to store contacts. Each contact is represented as an object with two properties: name and phone.
 
-## Functions:
+ Functions:
 
-### 1. *addContact(name, phone)*
+ 1. *addContact(name, phone)*
 Adds a new contact to the phonebook if both name and phone are provided.
 
 *Algorithm:*
@@ -32,7 +32,7 @@ addContact("Alice", "123-456-7890");
 // Output: "Contact added successfully!"
 
 
-### 2. *searchContact(searchTerm)*
+ 2. *searchContact(searchTerm)*
 Searches for a contact by name or phone in the phonebook.
 
 *Algorithm:*
@@ -46,7 +46,7 @@ searchContact("Alice");
 // Output: "Found: Alice - 123-456-7890"
 
 
-### 3. *displayAllContacts()*
+ 3. *displayAllContacts()*
 Displays all the contacts in the phonebook.
 
 *Algorithm:*
@@ -59,7 +59,7 @@ displayAllContacts();
 // Output: "Alice - 123-456-7890"
 
 
-### 4. *deleteContact(deleteTerm)*
+4. *deleteContact(deleteTerm)*
 Deletes a contact from the phonebook by name or phone.
 
 *Algorithm:*
@@ -74,7 +74,7 @@ deleteContact("Alice");
 // Output: "Contact deleted successfully!"
 
 
-### 5. *updateContact(updateTerm, newName, newPhone)*
+ 5. *updateContact(updateTerm, newName, newPhone)*
 Updates the details of a contact identified by name or phone.
 
 *Algorithm:*
@@ -89,7 +89,7 @@ updateContact("Alice", "Alicia", "987-654-3210");
 // Output: "Contact updated successfully!"
 
 
-### 6. *sortContacts()* (Optional)
+ 6. *sortContacts()* (Optional)
 Sorts the contacts in the phonebook by name in ascending order.
 
 *Algorithm:*
@@ -102,7 +102,7 @@ sortContacts();
 // Output: "Contacts sorted by name."
 
 
-## Notes on Efficiency:
+Notes on Efficiency:
 - All operations (insert, search, update, delete) use *linear search, which has a time complexity of **O(n), where **n* is the number of contacts in the phonebook.
 - The sort function has a time complexity of *O(n log n)*.
 
